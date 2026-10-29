@@ -49,7 +49,7 @@ The project follows this end-to-end architecture:
 
 **Manufacturing Source Data → Snowflake Database → Fact & Dimension Tables → Star Schema Data Model → Power BI Dataset → Interactive Dashboards → Business Users**
 
-![SMK Manufacturing Solution Architecture](Images/solution-architecture.png)
+![SMK Manufacturing Solution Architecture](solution-architecture.png)
 
 ## 🗄️ Data Model
 
@@ -75,7 +75,7 @@ The analytical model follows a **Star Schema** structure using fact and dimensio
 
 The model supports filtering and analysis across manufacturing plants, production lines, machines, products, and dates.
 
-![SMK Manufacturing Data Model](Images/Data%20model.png)
+![SMK Manufacturing Data Model](Data%20model.png)
 
 ## 📊 Power BI Dashboard Pages
 
@@ -83,13 +83,13 @@ The model supports filtering and analysis across manufacturing plants, productio
 
 Provides a consolidated view of key manufacturing KPIs, including production achievement, defect rate, maintenance cost, and downtime hours.
 
-![Executive Overview](Images/dashboard-screenshots/1.Executive%20Overview.png)
+![Executive Overview](1.Executive%20Overview.png)
 
 ### 2. Production Performance
 
 Analyzes planned versus actual production, production variance, achievement percentage, plant performance, and current-year versus previous-year trends.
 
-![Production Performance](Images/dashboard-screenshots/2.Production%20Performance.png)
+![Production Performance](Images/2.Production%20Performance.png)
 
 ### 3. Quality Analytics
 
