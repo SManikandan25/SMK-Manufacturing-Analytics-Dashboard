@@ -49,7 +49,7 @@ The project follows this end-to-end architecture:
 
 **Manufacturing Source Data → Snowflake Database → Fact & Dimension Tables → Star Schema Data Model → Power BI Dataset → Interactive Dashboards → Business Users**
 
-![SMK Manufacturing Solution Architecture](solution-architecture.png)
+![SMK Manufacturing Solution Architecture](Solution%20Architecture.png)
 
 ## 🗄️ Data Model
 
@@ -144,7 +144,7 @@ Dynamic RLS is implemented using `USERPRINCIPALNAME()` and the `DIM_USER_ACCESS`
 
 User Login → `USERPRINCIPALNAME()` → `DIM_USER_ACCESS` → Role Validation → Plant / Region Filtering → Dashboard Access
 
-![SMK Manufacturing Security Flow](security-flow.png)
+![SMK Manufacturing Security Flow](Dynamic%20RLS%20Security%20Flow.png)
 
 The role logic has been tested in Power BI Desktop. Power BI Service role assignment and access require separate validation before production use.
 
