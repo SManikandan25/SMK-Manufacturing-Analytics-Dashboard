@@ -89,25 +89,25 @@ Provides a consolidated view of key manufacturing KPIs, including production ach
 
 Analyzes planned versus actual production, production variance, achievement percentage, plant performance, and current-year versus previous-year trends.
 
-![Production Performance](Images/2.Production%20Performance.png)
+![Production Performance](2.Production%20Performance.png)
 
 ### 3. Quality Analytics
 
 Monitors total inspections, pass rate, defect rate, defect quantity, and defect patterns across manufacturing plants.
 
-![Quality Analytics](Images/dashboard-screenshots/3.Quality%20Analytics.png)
+![Quality Analytics](3.Quality%20Analytics.png)
 
 ### 4. Downtime & Maintenance Analytics
 
 Analyzes downtime hours, downtime events, maintenance costs, and maintenance performance across plants and machine types.
 
-![Downtime and Maintenance Analytics](Images/dashboard-screenshots/4.Downtime%20%26%20Maintenance%20Analytics.png)
+![Downtime and Maintenance Analytics](4.Downtime%20%26%20Maintenance%20Analytics.png)
 
 ### 5. Machine Analysis
 
 Compares machine-level production, downtime, and maintenance costs to help identify performance leaders and areas requiring further investigation.
 
-![Machine Analysis](Images/dashboard-screenshots/5.Machine%20Analsis.png)
+![Machine Analysis](5.Machine%20Analysis.png)
 
 ## 📈 Key Business Insights
 
@@ -144,7 +144,7 @@ Dynamic RLS is implemented using `USERPRINCIPALNAME()` and the `DIM_USER_ACCESS`
 
 User Login → `USERPRINCIPALNAME()` → `DIM_USER_ACCESS` → Role Validation → Plant / Region Filtering → Dashboard Access
 
-![SMK Manufacturing Security Flow](Images/security-flow.png)
+![SMK Manufacturing Security Flow](security-flow.png)
 
 The role logic has been tested in Power BI Desktop. Power BI Service role assignment and access require separate validation before production use.
 
